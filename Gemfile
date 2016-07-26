@@ -28,7 +28,7 @@ group :development, :test do
 end
 
 group :test do
-  gem 'shoulda-matchers'
+  gem 'shoulda-matchers', '~> 3.1'
   gem 'webmock'
   gem 'database_cleaner'
 end
