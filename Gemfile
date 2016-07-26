@@ -30,7 +30,7 @@ end
 group :test do
   gem 'shoulda-matchers', '~> 3.1'
   gem 'webmock'
-  gem 'database_cleaner'
+  gem 'database_cleaner', '~> 1.5', '>= 1.5.3'
 end
 
 group :development do

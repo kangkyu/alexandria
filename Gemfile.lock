@@ -45,7 +45,7 @@ GEM
     concurrent-ruby (1.0.2)
     crack (0.4.3)
       safe_yaml (~> 1.0.0)
-    database_cleaner (1.4.1)
+    database_cleaner (1.5.3)
     diff-lcs (1.2.5)
     erubis (2.7.0)
     factory_girl (4.5.0)
@@ -156,7 +156,7 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
-  database_cleaner
+  database_cleaner (~> 1.5, >= 1.5.3)
   factory_girl_rails
   listen (~> 3.0.5)
   puma (~> 3.0)
