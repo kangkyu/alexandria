@@ -6,7 +6,7 @@ RSpec.describe "Books", type: :request do
   let(:rails_tutorial) { create(:ruby_on_rails_tutorial)}
   let(:agile_web_dev) { create(:agile_web_development)}
   let(:books) { [ruby_microscope, rails_tutorial, agile_web_dev]}
-  let(:json_body) { JSON.parse(response.body)}
+
   describe 'GET /api/books' do
     before { books}
 
